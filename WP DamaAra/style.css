@@ -1,0 +1,368 @@
+/*
+Theme Name: مزرعه ی من
+Theme URI: https://afarineshit.ir/project/mazraeyeman/
+Author: SaeloZahra
+Author URI: https://saelozahra.ir
+Description: قالب وب سایت مزرعه من برای شرکت دما آرا
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: damaara
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+.fr{float: right;}
+.fl{float: left;}
+
+.tar{text-align: right;
+    text-decoration: inherit;
+    color: black;
+}
+
+img{
+	height:auto;
+}
+
+ul{margin: auto;}
+
+.container{
+    max-width: 1110px;
+    width: 95%;
+    text-align: right;
+    display: inline-block;
+}
+
+body {
+    font-family:tanha !important;
+    margin: auto;
+    direction: rtl;
+}
+.owl-carousel{
+    direction: ltr !important;
+}
+
+header {
+	background-image: url(IMG/header.jpg);
+    background-size: contain;
+}
+
+
+header .logo{
+    width:202px;
+}
+
+header .searchbox input[type="submit"] {
+	background-image: url(IMG/search.png);
+	display: inline-block;
+	padding: 14px 10px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	-touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: none;
+	background-size: 17px 17px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: -24px;
+}
+
+
+header .searchbox input[type="search"] {
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid cornsilk;
+	text-align: right;
+	padding: 5px 16px;
+    font-family: tanha;
+}
+
+header .menu{
+	margin-top:-12px;
+    background-color:black;
+}
+
+header .menu li{
+    font-size: 15px;
+    padding: 0px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+header .menu li:hover {
+    color: #000;
+    background-color: #eec511;
+    
+    
+}
+
+header .menu li a {
+	text-decoration: none;
+	color: white;
+	padding: 20px 20px 20px 10px;
+	display: inline-block;
+}
+header .menu li a:hover{
+    color: black;
+    border: 1px;
+    
+
+}
+
+
+.slider1 {
+    background-image: 
+    
+}
+
+.slider1 .greenhover {
+	background-image: url(IMG/covr.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 55%;
+	text-align: right;
+	padding-right: 10px;
+	color: white;
+}
+
+.slider1 .greenhover a{
+    padding: inherit;
+    margin: 345px;
+    text-align: right;
+    color: white;
+    font-size: 22px;    
+}
+
+.sld2{
+    padding: 39px 20px;
+    background-image: url(IMG/backmain.jpg);
+}
+
+.slider2 {
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+}
+
+.slider2 .sld2itm {
+	width: 100%;
+    transition: 1s;
+	display: inline-block;
+    overflow: hidden;
+}
+.slider2 .sld2itm:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.slider2 .sld2itm img {
+	height: 202px;
+	width: auto;
+	min-width: 100%;
+	max-width: 150%;
+}
+
+
+.main3{
+    font-size: 10px;
+    line-height: 20px;
+    width: 100%;
+    float: right;
+}
+
+.backmain3{
+    background-color: #e6e6e6;
+    background-image: url(IMG/back-rw.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left
+}
+
+.backmainvid{
+    width: 30%;
+    margin-left: 10%;
+    float: left;
+    margin-bottom: 300px;
+}
+
+.backmainText{
+    text-align: justify;
+    width: 35%;
+    padding: 45px 0px 70px 0px;
+    margin-right: 10%;
+    float: right;
+}
+
+.main4{
+    text-align: center;
+    font-size: 11pt;
+    background-image: url(IMG/video-bg.mp4);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.ads_widget_title{text-align: center;}
+
+
+.dark_hover {
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main5{
+    background-image: url(IMG/btm-item.jpg);
+    width: 100%;
+    padding: 50px;
+}
+
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 313px;
+	overflow: hidden;
+}
+footer .map {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer #map{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.footer1 {
+	background-image: url(IMG/footer-hv.png);
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: left;
+	color: aliceblue;
+	padding-left: 14px;
+	padding-top: 8px;
+	padding-right: 12%;
+	background-size: cover;
+}
+
+.footer1 a{
+	color:#fff;
+	font-weight:bold;
+}
+
+.single main,.archive-section {
+    background-image: url(IMG/bg_item.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.single main article.container,.archive-section figure.container {
+    
+    background:  radial-gradient(ellipse at center, rgba(243, 243, 243, 1) 73%, rgba(228, 228, 228, 0.54) 85%);
+    margin: 25px;
+    border: solid gray 1px;
+    padding: 42px;
+    border-radius: 22px;
+}
+
+#comments_lists_section {
+padding: 30px;
+border: solid white 1px;
+background: rgba(255,255,255,0.2);
+border-radius: 15px;
+margin-top: 40px;
+}
+
+#comment {
+    background-color: snow;
+    border: solid white 1px;
+    border-radius: 0px 2px 22px;
+    width: 92%;
+    height: 200px; 
+}
+
+.dayereei{
+    border-radius: 50%;
+    
+}
+.lead{
+    text-transform: none;
+    
+}
+
+
+
+
+
+
+.woocommerce table.shop_attributes th {
+    width: auto !important;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #eec511;
+    color: #000;
+    font-family: tanha;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #ffc511;
+    color: #333;
+}

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ir.saelozahra.damaara.mazraeyeman"
+	android:versionCode="50"
+	android:versionName="50"
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="30" />
+	<supports-screens android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<permission
+	        android:name="ir.saelozahra.damaara.mazraeyeman.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+	        android:protectionLevel="signature" />
+	
+	    <uses-permission android:name="ir.saelozahra.damaara.mazraeyeman.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+	<uses-feature android:name="android.hardware.location.gps"/>
+	<uses-permission
+	    android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+	    android:maxSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="ir.saelozahra.damaara.mazraeyeman.permission.MAPS_RECEIVE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+	<uses-permission android:name="ir.saelozahra.damaara.mazraeyeman.permission.C2D_MESSAGE"/>
+	<uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+	<application
+		android:name="androidx.multidex.MultiDexApplication"
+		android:icon="@drawable/icon"
+		android:label="مزرعه من"
+		android:largeHeap="true"
+		android:theme="@style/MyAppTheme"
+		android:networkSecurityConfig="@xml/network_security_config"
+		android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+		
+		<activity 
+		    android:name="ir.blue_saffron.libs.FileChooserActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar" />
+		<activity android:name="com.google.android.gms.common.api.GoogleApiActivity"
+		  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		  android:exported="false"/>
+		    <meta-data
+		  android:name="com.google.android.gms.version"
+		  android:value="@integer/google_play_services_version" />
+		<receiver
+		            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+		            android:enabled="true"
+		            android:exported="false" >
+		        </receiver>
+		
+		  <service
+		            android:name="com.google.android.gms.measurement.AppMeasurementService"
+		            android:enabled="true"
+		            android:exported="false" />
+					
+		<service
+		            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+		            android:enabled="true"
+		            android:exported="false"
+		            android:permission="android.permission.BIND_JOB_SERVICE" />
+		
+		 <service android:name="com.google.firebase.components.ComponentDiscoveryService"  android:directBootAware="true" android:exported="false"  >
+		            <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+					 <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		            <meta-data 
+						android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+						android:value="com.google.firebase.components.ComponentRegistrar"/>
+		
+					<meta-data
+		   				 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+		   				 android:value="com.google.firebase.components.ComponentRegistrar"/>
+		   			 <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		              <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar"/>
+		            <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar"/>
+		               
+		</service>
+		   <provider
+		     android:name="com.google.firebase.provider.FirebaseInitProvider"
+		            android:authorities="ir.saelozahra.damaara.mazraeyeman.firebaseinitprovider"
+		            android:directBootAware="true"
+		            android:exported="false"
+		            android:initOrder="100" />
+		   <receiver
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+		  android:exported="true"
+		  android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+		  <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		  <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		  <category android:name="ir.saelozahra.damaara.mazraeyeman" />
+		  </intent-filter>
+		  </receiver>
+		    <receiver
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+		  android:exported="false" />
+		
+		
+		  <service
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+		  android:exported="true">
+		  <intent-filter android:priority="-500">
+		  <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+		  </intent-filter>
+		  </service>
+		<service
+		            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+		            android:directBootAware="true"
+		            android:exported="false" >
+		            <intent-filter android:priority="-500" >
+		                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+		            </intent-filter>
+		        </service>
+		        
+		   <service android:name="anywheresoftware.b4a.objects.FirebaseNotificationsService"  android:exported="true">
+		     <intent-filter>
+		  		<action android:name="com.google.firebase.MESSAGING_EVENT"/>
+		     </intent-filter>
+		   </service>
+		<service
+		            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+		            android:exported="false" >
+		            <meta-data
+		                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+		                android:value="cct" />
+		        </service>
+				<service
+		            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+		            android:exported="false"
+		            android:permission="android.permission.BIND_JOB_SERVICE" >
+		        </service>
+		
+		        <receiver
+		            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+		            android:exported="false" />
+		<provider
+		  android:name="androidx.core.content.FileProvider"
+		  android:authorities="ir.saelozahra.damaara.mazraeyeman.provider"
+		  android:exported="false"
+		  android:grantUriPermissions="true">
+		  <meta-data
+		  android:name="android.support.FILE_PROVIDER_PATHS"
+		  android:resource="@xml/provider_paths"/>
+		  </provider>
+		<meta-data
+		  android:name="com.google.android.geo.API_KEY"
+		  android:value="AIzaSyBSZUGpIjMUY8kWsptsqgcsucrd-755qsc"/>
+		<uses-library
+		      android:name="org.apache.http.legacy"
+		      android:required="false" />
+		<meta-data
+		    android:name="com.google.android.gms.version"
+		    android:value="@integer/google_play_services_version" />
+		<provider
+		  android:name="androidx.core.content.FileProvider"
+		  android:authorities="ir.saelozahra.damaara.mazraeyeman.provider"
+		  android:exported="false"
+		  android:grantUriPermissions="true">
+		  <meta-data
+		  android:name="android.support.FILE_PROVIDER_PATHS"
+		  android:resource="@xml/provider_paths"/>
+		  </provider>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".intro2act"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".login_act"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".homeact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			
+			<intent-filter>
+			    <action android:name="android.intent.action.VIEW" />
+			    <category android:name="android.intent.category.DEFAULT"></category>
+			    <category android:name="android.intent.category.BROWSABLE"></category>
+			   <data android:scheme="tmm" />
+			   <data android:host="mazraeyeman.ir" />
+			</intent-filter>
+		</activity>
+		<service
+			android:name=".starter"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".starter$starter_BR"
+			android:exported="true">
+		</receiver>
+		<service
+			android:name=".accuweathercronjobservice"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".accuweathercronjobservice$accuweathercronjobservice_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<activity
+			android:windowSoftInputMode="adjustResize|stateHidden"
+			android:launchMode="singleTop"
+			android:name=".registeract"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			
+			<intent-filter>
+			    <action android:name="android.intent.action.VIEW" />
+			    <category android:name="android.intent.category.DEFAULT"></category>
+			    <category android:name="android.intent.category.BROWSABLE"></category>
+			   <data android:scheme="mm" />
+			   <data android:host="mazraeyeman.ir" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:windowSoftInputMode="adjustResize|stateHidden"
+			android:launchMode="singleTop"
+			android:name=".sabtemahsoolact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".notificationact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".weathernewact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".bazarchemahsoolact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<service
+			android:name=".firebasemessaging"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".firebasemessaging$firebasemessaging_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".fullscreen_video_act"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".mahsoullistact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".otpconfirmact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".select_map_act"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".singlenewact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".videonewact"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".zarinpal_payment"
+			android:label="مزرعه من"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<service
+			android:name=".newinst2"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".newinst2$newinst2_BR"
+			android:exported="true">
+			
+			<intent-filter>
+			<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name=".httputils2service"
+			android:exported="true">
+		</receiver>
+	</application>
+</manifest>

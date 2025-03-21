@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "410490165846",
+    "firebase_url": "https://damaara-969f1.firebaseio.com",
+    "project_id": "damaara-969f1",
+    "storage_bucket": "damaara-969f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410490165846:android:a506c0076590c331",
+        "android_client_info": {
+          "package_name": "ir.saelozahra.damaara.mazraeyeman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410490165846-pt14tk80t7g6unmhhnjp8vhf78a0b9vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxUqTrqO1WTHzCjgUMo-R_2n10iiuN8co"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

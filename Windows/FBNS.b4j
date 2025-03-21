@@ -1,0 +1,108 @@
+﻿AppType=JavaFX
+Build1=Default,b4j.example
+File1=ir.saelozahra.damaara.png
+File2=L1.bjl
+File3=Untitled-1.jpg
+FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+Group=Default Group
+Library1=jcore
+Library2=jfx
+Library3=json
+Library4=okhttp
+Library5=jokhttputils2
+NumberOfFiles=3
+NumberOfLibraries=5
+NumberOfModules=0
+Version=7.31
+@EndOfDesignText@
+#Region Project Attributes 
+	#MainFormWidth: 600
+	#MainFormHeight: 400 
+#End Region
+
+Sub Process_Globals
+	Private fx As JFX
+	Private MainForm As Form
+	'Private const API_KEY As String = "AIz********"
+	Private const API_KEY As String = "AAAAX5Me2lY:APA91bHdhBuQcDLkXoLIvwHzik4S0Nrm6FTdzVRUaUz8QqH65tN5e8ZhWnGzwHnOZ_IAS-dyH8N9l23MXEQ6BU-PGXI2BjzC_0XyNdctNnx8mHBFOaZGCcNxYCoW3YyecyvqbSJgasHP"
+'	Private API_KEY As String 
+	'jCore
+	'jOkHttpUtils2 nonui
+	'Json
+	'Okhttps
+	Private Button_Clear As Button
+	Private Button_OKU As Button
+	Private Button_Send As Button
+	Private Button_YAZ As Button
+	Private Label1 As Label
+	Private Label2 As Label
+	Private Label3 As Label
+	Private ListView1 As ListView
+	Private TextField_api As TextField
+	Private TextField_msg As TextField
+	Private TextField_msg_title As TextField
+	Private TextField_topic As TextField
+End Sub
+
+Sub AppStart (Form1 As Form, Args() As String)
+	MainForm = Form1
+	MainForm.RootPane.LoadLayout("L1") 'Load the layout file.
+	MainForm.Show
+	TextField_api.Text=API_KEY
+End Sub
+
+
+Private Sub SendMessage(Topic As String, Title As String, Body As String, Key As String)
+	Dim Job As HttpJob
+	Job.Initialize("fcm", Me)
+	Dim m As Map = CreateMap("to": $"/topics/${Topic}"$)
+	Dim data As Map = CreateMap("title": Title, "body": Body, "type": "text")
+	m.Put("data": data)
+	Dim jg As JSONGenerator
+	jg.Initialize(m)
+	Job.PostString("https://fcm.googleapis.com/fcm/send", jg.ToString)
+	Job.GetRequest
+	Job.GetRequest.SetContentType("application/json")
+	Job.GetRequest.SetHeader("Authorization", "key=" & Key)
+	
+	'StartMessageLoop
+	
+End Sub
+
+
+Sub JobDone(job As HttpJob)
+	Log(job)
+	ListView1.Items.Add(job)
+	ListView1.Items.Add("---------------------")
+	If job.Success Then
+		Log(job.GetString)
+		ListView1.Items.Add(DateTime.Time(DateTime.Now)&" ->>"& job.GetString)
+	End If
+	job.Release
+	'StopMessageLoop '<-- non ui app only
+End Sub
+
+Sub Button_YAZ_MouseClicked (EventData As MouseEvent)
+	File.WriteString(File.DirApp,"api.txt",TextField_api.Text.Trim)
+	fx.Msgbox(MainForm,"API saved","API records")
+	ListView1.Items.Add(DateTime.Time(DateTime.Now)&" ->>"& "api saved")
+End Sub
+
+Sub Button_Send_MouseClicked (EventData As MouseEvent)
+	'SendMessage("general", "This is the title", "Hello!!!!")
+	SendMessage(TextField_topic.Text.Trim,TextField_msg_title.Text.Trim,TextField_msg.Text.Trim,API_KEY)
+	ListView1.Items.Add(DateTime.Time(DateTime.Now)&" ->>"& "پیام ارسال شد")
+End Sub
+
+Sub Button_OKU_MouseClicked (EventData As MouseEvent)
+	TextField_api.Text= File.readString(File.DirApp,"api.txt")
+End Sub
+
+Sub Button_Clear_MouseClicked (EventData As MouseEvent)
+	TextField_api.Text=""
+	TextField_msg.Text=""
+	TextField_msg_title .Text=""
+	TextField_topic.Text=""
+End Sub

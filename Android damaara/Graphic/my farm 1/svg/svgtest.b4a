@@ -1,0 +1,105 @@
+﻿Build1=Default,b4a.example.svg
+File1=account_balance-24px.svg
+FileGroup1=Default Group
+Group=Default Group
+IconFile=
+Library1=core
+Library2=svg
+Library3=lottie
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~
+Module1=Starter
+NumberOfFiles=1
+NumberOfLibraries=3
+NumberOfModules=1
+Version=9.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: svg test
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+
+End Sub
+
+Sub Globals
+	Dim WV As WebView
+	Dim lot As LottieAnimationView
+'	Dim SVG1 As SVG
+'	Dim cnv As Canvas
+'	Dim ImageView1 As ImageView
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.Color=Colors.White
+	WV.Initialize("wv")
+	WV.Color=Colors.Transparent
+	WV.ZoomEnabled=False
+	WV.LoadHtml("<html><body><img src='file:///android_asset/account_balance-24px.svg' style='fill: white;width: 100%;height: auto;' /></body></html>")
+	Activity.AddView(WV,0,0,100%x,50%y)
+	
+	lot.
+'	Dim rect1 As Rect
+'	rect1.Initialize(200dip, 200dip,100dip,100dip)
+'	
+'	SVG1.Initialize(File.DirAssets,"account_balance-24px.svg")
+''	SVG1.DrawPicture(cnv,rect1)
+'
+'	cnv.Initialize(Activity)
+'	cnv.DrawDrawable(SVG1.CreatePictureDrawable,rect1)
+'	
+'	Activity.SetBackgroundImage(cnv.Bitmap)
+	
+	
+     
+
+
+'	SVG1.Initialize(File.DirAssets,"account_balance-24px.svg")
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+'	ImageView1.Initialize("ImageView1")
+'	ImageView1.Bitmap=LoadBitmap(File.DirAssets, "account_balance-24px.svg")
+'	Activity.AddView(ImageView1,0,100%x,100%x,100%x)
+'	
+'	cnv.Initialize(ImageView1)
+'
+'	Dim SVG1 As SVG
+'	SVG1.Initialize(File.DirAssets, "account_balance-24px.svg")
+'
+'	Dim rect1 As Rect
+'	rect1.Initialize(0,0,202dip,202dip)
+'
+'	SVG1.DrawPicture(cnv, rect1)
+	
+	
+End Sub
+
+Sub Activity_Touch (Action As Int, X As Float, Y As Float)
+'	SP.Panels_Touch(Action,X,Y)
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub

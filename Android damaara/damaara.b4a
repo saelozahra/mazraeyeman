@@ -1,0 +1,678 @@
+﻿Build1=Default,ir.saelozahra.damaara.mazraeyeman
+File1=1.png
+File10=14.svg
+File100=bg9.jpg
+File101=button-19.mp3
+File102=button-20.mp3
+File103=charts.txt
+File104=darsad_1.svg
+File105=darsad_10.svg
+File106=darsad_2.svg
+File107=darsad_3.svg
+File108=darsad_4.svg
+File109=darsad_5.svg
+File11=15.png
+File110=darsad_6.svg
+File111=darsad_7.svg
+File112=darsad_8.svg
+File113=darsad_9.svg
+File114=db.db
+File115=DUP.png
+File116=end_slider.html
+File117=googlemapstyle.txt
+File118=GreenHover.png
+File119=home weather graph kam.svg
+File12=15.svg
+File120=home weather graph motevaset.svg
+File121=home weather graph ziad.svg
+File122=home-weather-1.png
+File123=home-weather-background.jpg
+File124=ic_fp_40px.png
+File125=icon.png
+File126=icon1.png
+File127=icon1hover.png
+File128=icon2.png
+File129=icon2hover.png
+File13=16.png
+File130=icon3.png
+File131=icon3hover.png
+File132=intro.jpg
+File133=intro_layout.bal
+File134=l_zarinpal_payment.bal
+File135=list_bg.png
+File136=location.png
+File137=login.jpg
+File138=login_layout.bal
+File139=map_layout.bal
+File14=16.svg
+File140=meghdare_baresh.png
+File141=menu.png
+File142=miangin_rotoobat.png
+File143=mosalas.jpg
+File144=OtpNewLayout.bal
+File145=round_fullscreen_white.png
+File146=sabte_etelaat_baghdaran_layout.bal
+File147=sabte_mahsool_layout.bal
+File148=Samim-Bold-FD-WOL.ttf
+File149=Samim-FD-WOL.ttf
+File15=17.png
+File150=sp.png
+File151=start_slider.html
+File152=SVNewLayout.bal
+File153=taajob-icon.png
+File154=TabNewLayout.bal
+File155=time_bg.png
+File156=topdama.png
+File157=UVIndex.png
+File158=watermark.png
+File159=weatherPanelTop.html
+File16=17.svg
+File160=WVNewLayout.bal
+File17=18.png
+File18=18.svg
+File19=19.png
+File2=1.svg
+File20=19.svg
+File21=2.png
+File22=2.svg
+File23=20.png
+File24=20.svg
+File25=21.png
+File26=21.svg
+File27=22.png
+File28=22.svg
+File29=23.png
+File3=11.png
+File30=23.svg
+File31=24.png
+File32=24.svg
+File33=25.png
+File34=25.svg
+File35=26.png
+File36=26.svg
+File37=29.png
+File38=29.svg
+File39=3.png
+File4=11.svg
+File40=3.svg
+File41=30.png
+File42=30.svg
+File43=31.png
+File44=31.svg
+File45=32.png
+File46=32.svg
+File47=33.png
+File48=33.svg
+File49=34.png
+File5=12.png
+File50=34.svg
+File51=35.png
+File52=35.svg
+File53=36.png
+File54=36.svg
+File55=37.png
+File56=37.svg
+File57=38.png
+File58=38.svg
+File59=39.png
+File6=12.svg
+File60=39.svg
+File61=4.png
+File62=4.svg
+File63=40.png
+File64=40.svg
+File65=41.png
+File66=41.svg
+File67=42.png
+File68=42.svg
+File69=43.png
+File7=13.png
+File70=43.svg
+File71=44.png
+File72=44.svg
+File73=5.png
+File74=5.svg
+File75=6.png
+File76=6.svg
+File77=7.png
+File78=7.svg
+File79=8.png
+File8=13.svg
+File80=8.svg
+File81=ads_mockup.jpg
+File82=ashghal.png
+File83=aviny.ttf
+File84=baad.png
+File85=back_btn.png
+File86=back_btn_h.png
+File87=background.html
+File88=barf.png
+File89=bazarcheSingleLayout.bal
+File9=14.png
+File90=bg1.jpg
+File91=bg10.jpg
+File92=bg11.jpg
+File93=bg2.jpg
+File94=bg3.jpg
+File95=bg4.jpg
+File96=bg5.jpg
+File97=bg6.jpg
+File98=bg7.jpg
+File99=bg8.jpg
+FileGroup1=Image\Weather
+FileGroup10=Image\Weather
+FileGroup100=Image
+FileGroup101=Default Group
+FileGroup102=Default Group
+FileGroup103=Default Group
+FileGroup104=Image\Darsad
+FileGroup105=Image\Darsad
+FileGroup106=Image\Darsad
+FileGroup107=Image\Darsad
+FileGroup108=Image\Darsad
+FileGroup109=Image\Darsad
+FileGroup11=Image\Weather
+FileGroup110=Image\Darsad
+FileGroup111=Image\Darsad
+FileGroup112=Image\Darsad
+FileGroup113=Image\Darsad
+FileGroup114=Default Group
+FileGroup115=Image
+FileGroup116=Default Group
+FileGroup117=Default Group
+FileGroup118=Default Group
+FileGroup119=Image
+FileGroup12=Image\Weather
+FileGroup120=Image
+FileGroup121=Image
+FileGroup122=Image
+FileGroup123=Image
+FileGroup124=Image
+FileGroup125=Image
+FileGroup126=Image
+FileGroup127=Image
+FileGroup128=Image
+FileGroup129=Image
+FileGroup13=Image\Weather
+FileGroup130=Image
+FileGroup131=Image
+FileGroup132=Image
+FileGroup133=New Layout
+FileGroup134=New Layout
+FileGroup135=Image
+FileGroup136=Image
+FileGroup137=Image
+FileGroup138=New Layout
+FileGroup139=Layout
+FileGroup14=Image\Weather
+FileGroup140=Image
+FileGroup141=Image
+FileGroup142=Image
+FileGroup143=Image
+FileGroup144=New Layout
+FileGroup145=Image
+FileGroup146=Layout
+FileGroup147=Layout
+FileGroup148=Default Group
+FileGroup149=Default Group
+FileGroup15=Image\Weather
+FileGroup150=Image
+FileGroup151=Default Group
+FileGroup152=New Layout
+FileGroup153=Image
+FileGroup154=New Layout
+FileGroup155=Image
+FileGroup156=Image
+FileGroup157=Image
+FileGroup158=Image
+FileGroup159=Default Group
+FileGroup16=Image\Weather
+FileGroup160=New Layout
+FileGroup17=Image\Weather
+FileGroup18=Image\Weather
+FileGroup19=Image\Weather
+FileGroup2=Image\Weather
+FileGroup20=Image\Weather
+FileGroup21=Image\Weather
+FileGroup22=Image\Weather
+FileGroup23=Image\Weather
+FileGroup24=Image\Weather
+FileGroup25=Image\Weather
+FileGroup26=Image\Weather
+FileGroup27=Image\Weather
+FileGroup28=Image\Weather
+FileGroup29=Image\Weather
+FileGroup3=Image\Weather
+FileGroup30=Image\Weather
+FileGroup31=Image\Weather
+FileGroup32=Image\Weather
+FileGroup33=Image\Weather
+FileGroup34=Image\Weather
+FileGroup35=Image\Weather
+FileGroup36=Image\Weather
+FileGroup37=Image\Weather
+FileGroup38=Image\Weather
+FileGroup39=Image\Weather
+FileGroup4=Image\Weather
+FileGroup40=Image\Weather
+FileGroup41=Image\Weather
+FileGroup42=Image\Weather
+FileGroup43=Image\Weather
+FileGroup44=Image\Weather
+FileGroup45=Image\Weather
+FileGroup46=Image\Weather
+FileGroup47=Image\Weather
+FileGroup48=Image\Weather
+FileGroup49=Image\Weather
+FileGroup5=Image\Weather
+FileGroup50=Image\Weather
+FileGroup51=Image\Weather
+FileGroup52=Image\Weather
+FileGroup53=Image\Weather
+FileGroup54=Image\Weather
+FileGroup55=Image\Weather
+FileGroup56=Image\Weather
+FileGroup57=Image\Weather
+FileGroup58=Image\Weather
+FileGroup59=Image\Weather
+FileGroup6=Image\Weather
+FileGroup60=Image\Weather
+FileGroup61=Image\Weather
+FileGroup62=Image\Weather
+FileGroup63=Image\Weather
+FileGroup64=Image\Weather
+FileGroup65=Image\Weather
+FileGroup66=Image\Weather
+FileGroup67=Image\Weather
+FileGroup68=Image\Weather
+FileGroup69=Image\Weather
+FileGroup7=Image\Weather
+FileGroup70=Image\Weather
+FileGroup71=Image\Weather
+FileGroup72=Image\Weather
+FileGroup73=Image\Weather
+FileGroup74=Image\Weather
+FileGroup75=Image\Weather
+FileGroup76=Image\Weather
+FileGroup77=Image\Weather
+FileGroup78=Image\Weather
+FileGroup79=Image\Weather
+FileGroup8=Image\Weather
+FileGroup80=Image\Weather
+FileGroup81=Image
+FileGroup82=Image
+FileGroup83=Default Group
+FileGroup84=Image
+FileGroup85=Image
+FileGroup86=Image
+FileGroup87=Default Group
+FileGroup88=Image
+FileGroup89=Layout
+FileGroup9=Image\Weather
+FileGroup90=Image
+FileGroup91=Image
+FileGroup92=Image
+FileGroup93=Image
+FileGroup94=Image
+FileGroup95=Image
+FileGroup96=Image
+FileGroup97=Image
+FileGroup98=Image
+FileGroup99=Image
+Group=Default Group
+Library1=ahviewpager
+Library10=designsupport
+Library11=fileprovider
+Library12=firebasenotifications
+Library13=googlemaps
+Library14=googlemapsextras
+Library15=gps
+Library16=hitex_parallaxdesign
+Library17=ime
+Library18=javaobject
+Library19=jk_customtabsbrowser
+Library2=amir_activityslider
+Library20=json
+Library21=materialdialogs
+Library22=msshowtips
+Library23=notificationbuilder
+Library24=okhttp
+Library25=okhttputils2
+Library26=parsdatepickerdialog
+Library27=persiandate
+Library28=phone
+Library29=randomaccessfile
+Library3=appcompat
+Library30=reflection
+Library31=richstring
+Library32=runtimepermissions
+Library33=simpletooltip
+Library34=slidingmenuwrapper
+Library35=smartstring
+Library36=sql
+Library37=stringutils
+Library38=videoplayer
+Library39=xmllayoutbuilder
+Library4=appupdating
+Library40=xui
+Library41=webviewswipetorefresh
+Library5=audio
+Library6=ax_smoothbottombar
+Library7=bitmapcreator
+Library8=bsfilechooser
+Library9=core
+ManifestCode=AddManifestText(~\n~<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="30" />~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'CreateResourceFromFile(Macro, Themes.lightTheme)~\n~'End of default text.~\n~~\n~~\n~SetApplicationAttribute(android:largeHeap,"true")~\n~~\n~AddApplicationText(<activity ~\n~    android:name="ir.blue_saffron.libs.FileChooserActivity"~\n~    android:theme="@android:style/Theme.Black.NoTitleBar" />)~\n~	~\n~'AddPermission(android.permission.USE_FINGERPRINT)~\n~AddPermission("android.permission.READ_CONTACTS")~\n~AddPermission(android.permission.READ_CONTACTS)~\n~'AddPermission("android.permission.WRITE_CONTACTS")~\n~~\n~~\n~AddActivityText("RegisterAct",~\n~<intent-filter>~\n~    <action android:name="android.intent.action.VIEW" />~\n~    <category android:name="android.intent.category.DEFAULT"></category>~\n~    <category android:name="android.intent.category.BROWSABLE"></category>~\n~   <data android:scheme="mm" />~\n~   <data android:host="mazraeyeman.ir" />~\n~</intent-filter> )~\n~~\n~AddActivityText("HomeAct",~\n~<intent-filter>~\n~    <action android:name="android.intent.action.VIEW" />~\n~    <category android:name="android.intent.category.DEFAULT"></category>~\n~    <category android:name="android.intent.category.BROWSABLE"></category>~\n~   <data android:scheme="tmm" />~\n~   <data android:host="mazraeyeman.ir" />~\n~</intent-filter> )~\n~~\n~~\n~~\n~SetActivityAttribute(registerAct, android:windowSoftInputMode, adjustResize|stateHidden)~\n~SetActivityAttribute(SabteMahsoolAct, android:windowSoftInputMode, adjustResize|stateHidden)~\n~~\n~'SetActivityAttribute(show_content_act, android:configChanges, "orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation")~\n~~\n~~\n~~\n~~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~        <item name="colorPrimary">#059327</item>~\n~        <item name="colorPrimaryDark">#04751c</item>~\n~        <item name="colorAccent">#03C3A3</item>~\n~        <item name="colorControlNormal">#212121</item>~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">false</item>~\n~        <item name="android:windowTranslucentStatus">true</item>~\n~		<item name="android:windowDisablePreview">True</item>~\n~		<item name="android:textColorHint">#444444</item> ~\n~    </style>~\n~	~\n~</resources>~\n~)~\n~'        <item name="colorPrimary">#13b198</item>~\n~'        <item name="colorPrimaryDark">#15887b</item>~\n~'        <item name="colorAccent">#03C3A3</item>~\n~~\n~CreateResourceFromFile(Macro, Core.NetworkClearText)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Firebase)~\n~CreateResourceFromFile(Macro, FirebaseNotifications.FirebaseNotifications)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.FirebaseAnalytics)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Crashlytics)~\n~'CreateResourceFromFile(Macro, FirebaseRemoteConfig.Firebase)~\n~~\n~~\n~~\n~~\n~~\n~~\n~AddPermission(android.permission.ACCESS_NETWORK_STATE)~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~AddPermission(android.permission.ACCESS_COARSE_LOCATION)~\n~AddPermission(android.permission.WRITE_EXTERNAL_STORAGE)~\n~AddPermission(android.permission.READ_EXTERNAL_STORAGE)~\n~~\n~~\n~AddManifestText(<uses-feature android:name="android.hardware.location.gps"/>)~\n~~\n~'AddManifestText(~\n~'<uses-permission~\n~'	android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~'	android:maxSdkVersion="18" />~\n~')~\n~~\n~~\n~AddApplicationText(~\n~  <provider~\n~  android:name="android.support.v4.content.FileProvider"~\n~  android:authorities="$PACKAGE$.provider"~\n~  android:exported="false"~\n~  android:grantUriPermissions="true">~\n~  <meta-data~\n~  android:name="android.support.FILE_PROVIDER_PATHS"~\n~  android:resource="@xml/provider_paths"/>~\n~  </provider>~\n~)~\n~CreateResource(xml, provider_paths,~\n~   <files-path name="name" path="shared" />~\n~)~\n~~\n~~\n~AddApplicationText(~\n~<meta-data~\n~  android:name="com.google.android.geo.API_KEY"~\n~  android:value="AIzaSyBSZUGpIjMUY8kWsptsqgcsucrd-755qsc"/>~\n~)~\n~~\n~~\n~AddApplicationText(~\n~<uses-library~\n~      android:name="org.apache.http.legacy"~\n~      android:required="false" />~\n~)~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~AddApplicationText (<meta-data~\n~    android:name="com.google.android.gms.version"~\n~    android:value="@integer/google_play_services_version" />)~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~~\n~' app update manifest~\n~' app update manifest~\n~' app update manifest~\n~' app update manifest~\n~~\n~AddReceiverText(newinst2,~\n~<intent-filter>~\n~<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />~\n~</intent-filter>)~\n~~\n~' Starting from Android 7 (API 24) we pass a file uri using a FileProvider~\n~AddApplicationText(~\n~  <provider~\n~  android:name="android.support.v4.content.FileProvider"~\n~  android:authorities="$PACKAGE$.provider"~\n~  android:exported="false"~\n~  android:grantUriPermissions="true">~\n~  <meta-data~\n~  android:name="android.support.FILE_PROVIDER_PATHS"~\n~  android:resource="@xml/provider_paths"/>~\n~  </provider>~\n~)~\n~~\n~'new external-files-path ensures compatibility with NB6~\n~CreateResource(xml, provider_paths,~\n~<paths>~\n~   <files-path name="name" path="shared" />~\n~   <external-files-path name="name1" path="shared1" />~\n~</paths>~\n~)~\n~~\n~AddManifestText(<uses-permission~\n~    android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~    android:maxSdkVersion="19" />~\n~)~\n~~\n~AddPermission(android.permission.REQUEST_INSTALL_PACKAGES)~\n~AddPermission(android.permission.INTERNET)~\n~~\n~~\n~~\n~~\n~
+Module1=accuWeatherCronJobService
+Module10=Intro2Act
+Module11=login_act
+Module12=MahsoulListAct
+Module13=NotificationAct
+Module14=OTPConfirmAct
+Module15=RegisterAct
+Module16=SabteMahsoolAct
+Module17=SaeloZahra
+Module18=select_map_act
+Module19=SingleNewAct
+Module2=bazarcheMahsoolAct
+Module20=Starter
+Module21=VideoNewAct
+Module22=WeatherNewAct
+Module23=ZarinPal_Payment
+Module3=CToast
+Module4=CustomListView
+Module5=DateUtils
+Module6=DoubleTaptoClose
+Module7=FirebaseMessaging
+Module8=fullscreen_video_act
+Module9=HomeAct
+NumberOfFiles=160
+NumberOfLibraries=41
+NumberOfModules=23
+Version=13.1
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: مزرعه من
+	#VersionCode: 50
+	#VersionName: 50
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: true
+	#BridgeLogger: True
+	#MultiDex: True
+'	#LibraryAuthor: NJDude
+#End Region
+
+#Region  Activity Attributes
+	#FullScreen: True
+	#IncludeTitle: False
+#End Region
+
+
+#AdditionalRes: ..\res_contentchooser
+#AdditionalRes: ..\res
+'#AdditionalRes: j:\Development\sdk\my_resource\b4a_floatingactionbutton
+#CustomBuildAction: 1, c:\windows\system32\attrib.exe, +r res\*.* /s
+#AdditionalJar: com.google.android.gms:play-services-base
+#AdditionalJar: com.google.android.gms:play-services-maps
+#AdditionalJar: com.google.firebase:firebase-crashlytics
+'#AdditionalJar: com.google.firebase:firebase-config
+'#AdditionalJar: com.google.firebase:firebase-core
+#additionaljar: com.android.support:support-v4
+
+
+
+Sub Process_Globals
+	Dim SQL1 As SQL
+'	Dim Cu1 As Cursor
+	
+	Dim T As Timer
+	
+'	'Public key
+'	Dim KEY As String = "BRDM9729"  'todo put your public key here
+'	'Public key one
+'	Dim secretOne As String = "123051341062079822353399967301943138212378526046615071249809487589448142266901374096836375805048515174952026657016572277166717376495547776443961093476894400001428207870149006003537675263960118931742865841012030336389405877307465746714540126032394904993267473528750012157638141607733452546147133402727692598213"  'todo put your Secret key here
+'	'Secret key two
+'	Dim secretTwo As String = "91710678764320748933454711122929224498888095346856175217006338729368059401968317404824340085716384999626649710270144695030415036619391048421582916686435233144516274393344868704038321134924708114769109567036369157624357497248349776776757983061274316420296614761745103179024533800036745783171415307233661586973"  'todo put your Secret key here
+		
+'	Dim oBillingManager As PBillingManager3   'jhoobin inapp service
+'	Dim Amaroid As AmaroidWrapper
+'	Dim bIsoBillingManagerAvailable As Boolean = False
+	
+End Sub
+
+Sub Globals
+	Dim NewVersion As Boolean = False
+	Dim DTTC As DoubleTaptoClose
+	Dim AC As AppCompat
+'	Dim CFG As FirebaseRemoteConfig
+	Dim TimerInt As Int
+	Dim ParallaxDesign As Hitex_ParallaxDesign
+	Private DescLbl As Label
+	Private logoIV As ImageView
+	Private go_btn As Button
+'	Dim CheckPurchusedJob As HttpJob
+End Sub
+
+Sub Activity_Create( FirstTime As Boolean )
+	
+	Activity.LoadLayout("intro_layout")
+	
+	DTTC.InItIaLiZe("مجددا دکمه خروج را بزنید")
+	
+	Log( " ApproximateScreenSize: 	" & GetDeviceLayoutValues.ApproximateScreenSize )
+	Log( " Width:				    " & GetDeviceLayoutValues.Width )
+	Log( " height:				    " & GetDeviceLayoutValues.Height )
+	
+	SaeloZahra.MaterialActionBarHeight 	=	AC.GetMaterialActionBarHeight
+	SaeloZahra.GetStatusBarHeight 		=	AC.GetStatusBarHeight
+
+	
+	
+		
+	If Not(SQL1.IsInitialized) Then
+		SQL1.Initialize(SaeloZahra.dir,"db.db",False)
+	End If
+		
+		'todo
+'	Cu1 = SQL1.ExecQuery("SELECT * FROM notification ORDER BY id DESC")
+'	If Cu1.RowCount<5 Then
+		StartService(accuWeatherCronJobService)
+'	Else
+'		StartServiceAt(accuWeatherCronJobService, DateTime.Now + 12 * DateTime.TicksPerHour, True)
+'	End If
+	
+	If FirstTime Then
+		
+'		Log("Initialize Irancell Billing Manager")
+'		oBillingManager.InitializeSDK("BillingManager", KEY , secretOne, secretTwo, True)
+'		
+'		'Its for debug log, set it to false after test and when ready to build the App
+'		oBillingManager.DebugLogging = True 'False 'True
+		
+		Try
+			If Application.VersionCode > File.ReadString(SaeloZahra.dir,"VAPP") Then
+				NewVersion = True
+			End If
+		Catch
+			File.WriteString(SaeloZahra.dir,"VAPP",Application.VersionCode)
+		End Try
+		File.WriteString(SaeloZahra.dir,"VAPP",Application.VersionCode)
+		
+		
+		If Not(File.Exists(SaeloZahra.dir,"db.db")) Then
+			File.Copy(File.DirAssets,"db.db",SaeloZahra.dir,"db.db")
+		Else If NewVersion Then
+			Msgbox2Async("آیا قصد حذف آرشیو اطلاعات و پیام‌ها را دارید؟", "پاکسازی", "آره ، حذفشون کن", "", "نه، میخوام داشته باشمشون", Null, False)
+			Wait For Msgbox_Result (Result As Int)
+			If Result = DialogResponse.POSITIVE Then
+				File.Copy(File.DirAssets,"db.db",SaeloZahra.dir,"db.db")
+			End If
+		End If
+		
+		
+		
+		
+		
+		
+		
+		
+'		Amaroid.SetTags("mazraeyeman",Application.VersionName,Null)
+'		Amaroid.TrackView("Start App")
+		
+	End If
+	
+	
+	
+	ParallaxDesign.Initialize
+	Activity.AddView(ParallaxDesign,0,-14dip,100%x,100%y+28dip)
+	ParallaxDesign.setMargins(270,100)
+	ParallaxDesign.setMultipliers(1.7f,1.7f)
+	ParallaxDesign.SetImageBitmap(LoadBitmap(File.DirAssets,"bg"&Rnd(1,12)&".jpg"))
+	ParallaxDesign.SendToBack
+	
+	DescLbl.BringToFront
+	DescLbl.Typeface=SaeloZahra.font
+	
+	go_btn.Typeface=SaeloZahra.font
+	
+	
+	T.Initialize("T",1444)
+	T.Enabled=True
+	TimerInt=0
+	
+'	Try
+'		CFG.Initialize("Config")
+'		LogColor("Remote config Fetching",Colors.Magenta)
+'		CFG.Defaults = CreateMap("full_amount": 180000, "expired_version": 10)
+'		CFG.fetch
+'	Catch
+'		Log(LastException)
+'		Log("Remote config nasb nashod:   "&LastException)
+'	End Try
+
+	If accuWeatherCronJobService.RegionCode=="" Then
+		If File.Exists(SaeloZahra.dir,"RegionCode") Then
+			accuWeatherCronJobService.RegionCode = File.ReadString(SaeloZahra.dir,"RegionCode")
+		Else
+			StartService(accuWeatherCronJobService)
+		End If
+	End If
+	
+	
+	logoIV.Bitmap=LoadBitmapResize(File.DirAssets,"watermark.png",logoIV.Width,logoIV.Height,True)
+	logoIV.SetVisibleAnimated(3133,True)
+
+	
+	DescLbl.TextColor=Colors.White
+	SaeloZahra.SetTextShadow(DescLbl,5,0,0,Colors.Black)
+	Dim HoverLbl As Label
+	HoverLbl.Initialize("HoverLbl")
+	HoverLbl.SetBackgroundImage(LoadBitmap(File.DirAssets,"GreenHover.png"))
+	Activity.AddView(HoverLbl,0,0,100%x,100%y)
+	HoverLbl.BringToFront
+	HoverLbl.Visible=False
+	DescLbl.BringToFront
+	logoIV.BringToFront
+	
+'	CheckPurchusedJob.Initialize("CheckPurchusedJob",Starter)
+'	If File.Exists(SaeloZahra.dir,"usrnm") Then
+'		If File.ReadString(SaeloZahra.dir,"usrnm").Length==11 Then
+'			CheckPurchusedJob.Download("https://seller.charkhoneh.com/ws/androidpublisher/v2/inquiry/purchases/subscriptions/msisdn/"&File.ReadString(SaeloZahra.dir,"usrnm")&"?access_token=a0390850-ad76-37dd-a8d8-e3a0eadb1796")
+'		End If
+'	End If
+
+End Sub
+
+Sub Activity_Click
+	go_btn_Click
+End Sub
+Sub DescLbl_Click
+	go_btn_Click
+End Sub
+Sub logoIV_Click
+	go_btn_Click
+End Sub
+
+
+
+Sub T_Tick
+'	Log(TimerInt)
+	If TimerInt > 1  And TimerInt<3 Then
+		T.Enabled=False
+		go_btn.SetVisibleAnimated(313,True)
+'		go_btn_Click
+	Else
+		TimerInt=TimerInt+1
+	End If
+End Sub
+
+'Sub Config_onFetchCompleted(success As Boolean)
+'	Config_onFetchComplete(success)
+'End Sub
+'
+'Sub Config_onFetchComplete(success As Boolean)
+'	If success Then
+'		LogColor("Activate fetched values",Colors.Yellow)
+'		CFG.activateFetched
+'		Log("expired_version="&CFG.getDouble("expired_version"))
+'		If Application.VersionCode<=CFG.getDouble("expired_version") Then
+'			File.WriteString(SaeloZahra.dir,"expire",True)
+'		Else
+'			File.Delete(SaeloZahra.dir,"expire")
+'		End If
+'		
+'		RegisterAct.gheimatKamel = CFG.getString("full_amount")
+'		Log("full_amount="&CFG.getDouble("full_amount"))
+'		
+'	End If
+'End Sub
+
+
+Sub Activity_Resume
+	Log("SDK: "&SaeloZahra.P.SdkVersion)
+	ParallaxDesign.SetImageBitmap(LoadBitmap(File.DirAssets,"bg"&Rnd(1,12)&".jpg"))
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+'Sub jobDone(job As HttpJob)
+'	If job.Success Then
+'		Log("Common Baby: "&job.GetString)
+'	Else
+'		Log(job.ErrorMessage)
+'	End If
+'End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	If KeyCode = KeyCodes.KEYCODE_BACK Then
+		DTTC.TapToClose
+		Return True
+	Else
+		Return False
+	End If
+End Sub
+
+
+Sub go_btn_Click
+'	Sleep(555)
+	SaeloZahra.beep("button-19.mp3")
+	SaeloZahra.SetAnimation("zoom_exit","zoom_enter")
+	If File.Exists(SaeloZahra.dir,"usrnm") Then
+'		If File.ReadString(SaeloZahra.dir,"usrnm") == "hamrah" Then
+		
+		Starter.rp.CheckAndRequest(Starter.rp.PERMISSION_WRITE_EXTERNAL_STORAGE)
+		Wait For Activity_PermissionResult (Permission As String, Result As Boolean)
+		If Result Then StartActivity(login_act)
+		
+'		Else
+'			StartActivity(Intro2Act)
+'		End If
+	Else
+		StartActivity(Intro2Act)
+	End If
+	SaeloZahra.SetAnimation("zoom_exit","zoom_enter")
+	Activity.Finish
+End Sub
+

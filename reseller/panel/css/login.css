@@ -1,0 +1,126 @@
+
+/*
+ * In the name of God
+ * @author: Ayoub Ghasemi
+ * @email: ayoubsys@chmail.ir
+ * @link: http://ayoubsys.ir
+ * @copyright: Copyright © 2015-2020 . All rights reserved.
+ */
+
+@font-face {font-family: 'BYekan';src: url('../fonts/BYekan.eot?#') format('eot'),url('../fonts/BYekan.woff') format('woff'),url('../fonts/BYekan.ttf') format('truetype');}
+
+.fr { float:right} .fl { float:left}
+* {border: 0;margin: 0;padding: 0;} .fl {float:left;} .fr {float:right;}
+.r5 {-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.r10 {-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.r15 {-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.sl {-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out; transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;}
+.sl2 {-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;}
+a {text-decoration:none}
+
+::selection{background:#8391CC;color:#FFFFFF}
+::-moz-selection{background:#8391CC;color:#FFFFFF; }
+
+::-webkit-scrollbar {width:13px;height:13px;}
+::-webkit-scrollbar-thumb {background-color: #514e52 !important;}
+
+/* --------------------- Start Css ------------------------- */
+body { margin:0; padding:0; background:url('../images/pattern.png'); direction:rtl; text-align:right;}
+
+.top_div { width:100%; height:10px; background:#ccc;}
+.father_div { width:700px;}
+.top_space { margin:140px 0 0 0;}
+#form_ajax_result { width:434px; min-height:20px; max-height:45px; padding:7px 7px; background: #f8f8f8; border:1px solid #bcb5b5; font-family:tahoma; font-size:12px; color: #666; margin:10px 0 0 0; display:none; overflow:hidden;}
+.result_icn { width:15px; height:15px; margin:0 0 -4px 5px;}
+.login_div { width:449px; height:251px; margin:8px 0 0 0; padding:3px 0 0 0; box-shadow: 0 0 5px 2px #bdc2c5; background:#f8f8f8; overflow:hidden; }
+.uname_txt , .pass_txt , .code_txt  { width:408px; height:30px; font-family:'BYekan'; font-size:18px; color:#575757; text-align:right; margin:4px 10px 0 0; padding-right:30px; overflow:hidden;}
+.uname_txt {background:url('../images/username.png') no-repeat right top;}
+.pass_txt {background:url('../images/password.png') no-repeat right top; }
+.code_txt {background:url('../images/security.png') no-repeat right top; }
+.user_inp , .pass_inp { width:420px; height:25px; font-family:arial; font-size:15px; background:#fbfbfb ; color:#c0c0c0; font-weight:bold; margin:0 9px 0 0; padding:0 5px; border:1px solid #ccc;}
+.user_inp { border-bottom:3px solid #069; }
+.pass_inp { border-bottom:3px solid #900;}
+.user_inp:focus , .pass_inp:focus , .code_inp:focus { color:#000;}
+.code_inp { width:290px; height:25px; font-family:arial; font-size:15px;background:#fbfbfb ; color:#c0c0c0; font-weight:bold; margin:0 9px 0 0; padding:0 5px; border:1px solid #ccc; border-bottom:3px solid #093;}
+.code_img_div { width:121px; height:48px; overflow:hidden; margin:0 8px 0 0; position:relative; }
+#imgcaptcha { border:1px solid #ccc;}
+.code_img_div div { width:118px; height:28px; position:absolute; top:0; right:0; overflow:hidden;}
+.code_img_div p { font-family:tahoma; font-size:10px; color:#09C; cursor:pointer;}
+.code_img_div img { width:119px; height:27px;}
+.submit_frm { width:270px; margin:3px 10px 0 0; padding:5px 7px; background:#5c83b9; border:#5c83b9 1px solid; font-family:'BYekan'; font-size:13px; color:#ffffff; text-shadow: 1px 1px 0px #818181; cursor:pointer;}
+.submit_frm:hover { background:#4471b0;}
+.button_frm {width: 150px; margin:3px 10px 0 0; padding: 5px 7px; background:#0cb493; border: #0cb493 1px solid; font-family:'BYekan'; font-size:13px;  color: #ffffff; text-shadow: 1px 1px 0px #818181; cursor:pointer;}
+.button_frm:hover { background:#05a787;}
+.submit_frm:active , .button_frm:active { background:#dbdbdb; text-shadow: 1px 1px 0px #818181;}
+.login_copyright { direction:ltr; margin:10px 0 10px 0; font-family:tahoma; font-size:12px; color:#000;}
+
+.complete_frm { display:none;}
+
+
+@media only screen and (max-width: 700px) {  	
+	.father_div { width:460px;}
+	.top_space { margin:0px 0 0 0;}
+}
+
+@media only screen and (max-width: 480px) {  
+	.father_div { width:320px;}
+	.top_space { margin:0 0 0 0;}
+	#form_ajax_result { width:305px; }
+	.login_div { width:320px; height:251px }
+	.uname_txt , .pass_txt , .code_txt  { width:275px; height:30px; }
+	.user_inp , .pass_inp { width:292px; height:25px; }
+	.code_inp { width:162px; height:25px; }
+	.submit_frm { width:182px; }
+	.button_frm {width: 110px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
